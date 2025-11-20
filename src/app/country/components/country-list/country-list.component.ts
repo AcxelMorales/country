@@ -12,7 +12,7 @@ import type { Country } from '../../interfaces/country.interface';
 export class CountryListComponent {
 
   countries = input.required<Country[]>();
-  errorMessage = input<string | unknown | null>();
+  errorMessage = input<string | null>();
   isLoading = input<boolean>();
   isEmpty = input<boolean>();
 
